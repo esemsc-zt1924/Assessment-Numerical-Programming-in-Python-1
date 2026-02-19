@@ -1,0 +1,11 @@
+name: npp-ast1
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyter
+  - nbclassic
+  - pip
+  - pip:
+     - -r requirements.txt
